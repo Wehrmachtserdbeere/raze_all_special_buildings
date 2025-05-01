@@ -1,0 +1,725 @@
+on_holding_razed = {
+	effect = {
+		scope:province.county = { set_variable = was_razed }
+		send_interface_toast = {
+			title = province_razed_toast_title
+			left_icon = scope:province.barony
+			scope:province = {
+				if = {
+					limit = {
+						has_building_or_higher = drassanes_01
+					}
+					remove_building = drassanes_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = kyz_kala_01
+					}
+					remove_building = kyz_kala_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = cluny_abbey_01
+					}
+					remove_building = cluny_abbey_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = york_walls_01
+					}
+					remove_building = york_walls_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = damascus_mosque_01
+					}
+					remove_building = damascus_mosque_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = jokhang_01
+					}
+					remove_building = jokhang_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = wartburg_01
+					}
+					remove_building = wartburg_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = beta_giyorgis_01
+					}
+					remove_building = beta_giyorgis_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_wisdom_01
+					}
+					remove_building = holy_wisdom_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = kano_walls_01
+					}
+					remove_building = kano_walls_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = somapura_university_01
+					}
+					remove_building = somapura_university_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = duomo_florence_01
+					}
+					remove_building = duomo_florence_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = konark_temple_01
+					}
+					remove_building = konark_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = al_qarawiyyin_university_01
+					}
+					remove_building = al_qarawiyyin_university_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = kairouan_basins_01
+					}
+					remove_building = kairouan_basins_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = ghana_palace_01
+					}
+					remove_building = ghana_palace_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = visegrad_castle_01
+					}
+					remove_building = visegrad_castle_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = wawel_cathedral_01
+					}
+					remove_building = wawel_cathedral_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = vatapi_caves_01
+					}
+					remove_building = vatapi_caves_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = jaisalmer_fort_01
+					}
+					remove_building = jaisalmer_fort_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_cathedral_01
+					}
+					remove_building = holy_site_cathedral_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_mosque_01
+					}
+					remove_building = holy_site_mosque_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_fire_temple_01
+					}
+					remove_building = holy_site_fire_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_pagan_grand_temple_01
+					}
+					remove_building = holy_site_pagan_grand_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_indian_grand_temple_01
+					}
+					remove_building = holy_site_indian_grand_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_other_grand_temple_01
+					}
+					remove_building = holy_site_other_grand_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_mahabodhi_temple_01
+					}
+					remove_building = holy_site_mahabodhi_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_imam_ali_mosque_01
+					}
+					remove_building = holy_site_imam_ali_mosque_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_great_mosque_of_mecca_01
+					}
+					remove_building = holy_site_great_mosque_of_mecca_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_great_mosque_of_cordoba_01
+					}
+					remove_building = holy_site_great_mosque_of_cordoba_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_great_mosque_of_djenne_01
+					}
+					remove_building = holy_site_great_mosque_of_djenne_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_great_mosque_of_samarra_01
+					}
+					remove_building = holy_site_great_mosque_of_samarra_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_cologne_cathedral_01
+					}
+					remove_building = holy_site_cologne_cathedral_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_canterbury_cathedral_01
+					}
+					remove_building = holy_site_canterbury_cathedral_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_prophetic_mosque_01
+					}
+					remove_building = holy_site_prophetic_mosque_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = doges_palace_01
+					}
+					remove_building = doges_palace_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = walls_of_genoa_01
+					}
+					remove_building = walls_of_genoa_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = visby_ringmur_01
+					}
+					remove_building = visby_ringmur_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = walls_of_benin_01
+					}
+					remove_building = walls_of_benin_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = theodosian_walls_01
+					}
+					remove_building = theodosian_walls_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = aurelian_walls_01
+					}
+					remove_building = aurelian_walls_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = the_colosseum_01
+					}
+					remove_building = the_colosseum_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = iron_pillar_of_delhi_01
+					}
+					remove_building = iron_pillar_of_delhi_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = iron_pillar_of_dhar_01
+					}
+					remove_building = iron_pillar_of_dhar_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = the_pyramids_01
+					}
+					remove_building = the_pyramids_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = stonehenge_01
+					}
+					remove_building = stonehenge_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = offas_dyke_01
+					}
+					remove_building = offas_dyke_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = hadrians_wall_01
+					}
+					remove_building = hadrians_wall_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = petra_01
+					}
+					remove_building = petra_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = buddhas_of_bamian_01
+					}
+					remove_building = buddhas_of_bamian_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = alhambra_01
+					}
+					remove_building = alhambra_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = alhambra_02
+					}
+					remove_building = alhambra_02
+				}
+				if = {
+					limit = {
+						has_building_or_higher = citadel_of_aleppo_01
+					}
+					remove_building = citadel_of_aleppo_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = citadel_of_aleppo_02
+					}
+					remove_building = citadel_of_aleppo_02
+				}
+				if = {
+					limit = {
+						has_building_or_higher = house_of_wisdom_01
+					}
+					remove_building = house_of_wisdom_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = the_tower_of_london_01
+					}
+					remove_building = the_tower_of_london_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = london_bridge_01
+					}
+					remove_building = london_bridge_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = notre_dame_01
+					}
+					remove_building = notre_dame_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = brihadeeswarar_temple_01
+					}
+					remove_building = brihadeeswarar_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = shwedagon_pagoda_01
+					}
+					remove_building = shwedagon_pagoda_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = ananda_temple_01
+					}
+					remove_building = ananda_temple_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = the_friday_mosque_01
+					}
+					remove_building = the_friday_mosque_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = khajuraho_01
+					}
+					remove_building = khajuraho_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = palace_of_aachen_01
+					}
+					remove_building = palace_of_aachen_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = hagia_sophia_01
+					}
+					remove_building = hagia_sophia_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = dome_of_the_rock_01
+					}
+					remove_building = dome_of_the_rock_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = temple_in_jerusalem_01
+					}
+					remove_building = temple_in_jerusalem_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = hall_of_heroes_01
+					}
+					remove_building = hall_of_heroes_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = special_sicilian_parliament_01
+					}
+					remove_building = special_sicilian_parliament_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = special_greenhouse_01
+					}
+					remove_building = special_greenhouse_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = hotin_fort_01
+					}
+					remove_building = hotin_fort_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = golden_gate_of_kiev_01
+					}
+					remove_building = golden_gate_of_kiev_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = heddal_stave_church_01
+					}
+					remove_building = heddal_stave_church_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = temple_of_uppsala_01
+					}
+					remove_building = temple_of_uppsala_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = lund_cathedral_01
+					}
+					remove_building = lund_cathedral_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = danevirke_01
+					}
+					remove_building = danevirke_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = roman_wall_of_lugo_01
+					}
+					remove_building = roman_wall_of_lugo_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = rock_of_gibraltar_01
+					}
+					remove_building = rock_of_gibraltar_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = aljaferia_palace_01
+					}
+					remove_building = aljaferia_palace_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = tower_of_hercules_01
+					}
+					remove_building = tower_of_hercules_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = city_wall_of_toledo_01
+					}
+					remove_building = city_wall_of_toledo_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = alcazar_of_segovia_01
+					}
+					remove_building = alcazar_of_segovia_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = holy_site_basilica_santiago_01
+					}
+					remove_building = holy_site_basilica_santiago_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = imam_reza_shrine_01
+					}
+					remove_building = imam_reza_shrine_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = soltaniyeh_01
+					}
+					remove_building = soltaniyeh_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = palace_of_ctesiphon_01
+					}
+					remove_building = palace_of_ctesiphon_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = falak_ol_aflak_citadel_01
+					}
+					remove_building = falak_ol_aflak_citadel_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = minarets_and_remains_of_jam_01
+					}
+					remove_building = minarets_and_remains_of_jam_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = great_wall_of_gorgan_01
+					}
+					remove_building = great_wall_of_gorgan_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = maharloo_lake_01
+					}
+					remove_building = maharloo_lake_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = rainbow_mountains_01
+					}
+					remove_building = rainbow_mountains_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = mount_damavand_01
+					}
+					remove_building = mount_damavand_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = tomb_of_cyrus_01
+					}
+					remove_building = tomb_of_cyrus_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = ark_of_bukhara_01
+					}
+					remove_building = ark_of_bukhara_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = shah_i_zinda_01
+					}
+					remove_building = shah_i_zinda_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = alamut_castle_01
+					}
+					remove_building = alamut_castle_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = event_tower_of_silence_01
+					}
+					remove_building = event_tower_of_silence_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = church_of_the_theotokos
+					}
+					remove_building = church_of_the_theotokos
+				}
+				if = {
+					limit = {
+						has_building_or_higher = parthenon
+					}
+					remove_building = parthenon
+				}
+				if = {
+					limit = {
+						has_building_or_higher = hagios_demetrios
+					}
+					remove_building = hagios_demetrios
+				}
+				if = {
+					limit = {
+						has_building_or_higher = kassiopi_castle
+					}
+					remove_building = kassiopi_castle
+				}
+				if = {
+					limit = {
+						has_building_or_higher = saint_lazarus
+					}
+					remove_building = saint_lazarus
+				}
+				if = {
+					limit = {
+						has_building_or_higher = sumela_monastery_01
+					}
+					remove_building = sumela_monastery_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = patras_castle
+					}
+					remove_building = patras_castle
+				}
+				if = {
+					limit = {
+						has_building_or_higher = maiden_tower
+					}
+					remove_building = maiden_tower
+				}
+				if = {
+					limit = {
+						has_building_or_higher = despot_palace
+					}
+					remove_building = despot_palace
+				}
+				if = {
+					limit = {
+						has_building_or_higher = meteora_01
+					}
+					remove_building = meteora_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = mount_athos_01
+					}
+					remove_building = mount_athos_01
+				}
+				if = {
+					limit = {
+						has_building_or_higher = apollinare_nuovo
+					}
+					remove_building = apollinare_nuovo
+				}
+				if = {
+					limit = {
+						has_building_or_higher = saint_catherine
+					}
+					remove_building = saint_catherine
+				}
+				if = {
+					limit = {
+						has_building_or_higher = jvari_monastery
+					}
+					remove_building = jvari_monastery
+				}
+				if = {
+					limit = {
+						has_building_or_higher = etchmiadzin_cathedral
+					}
+					remove_building = etchmiadzin_cathedral
+				}
+				if = {
+					limit = {
+						has_building_or_higher = cattolica_stilo
+					}
+					remove_building = cattolica_stilo
+				}
+				if = {
+					limit = {
+						has_building_or_higher = hosios_loukas
+					}
+					remove_building = hosios_loukas
+				}
+				if = {
+					limit = {
+						has_building_or_higher = sofia_ohrid
+					}
+					remove_building = sofia_ohrid
+				}
+				if = {
+					limit = {
+						has_building_or_higher = fairy_chimneys
+					}
+					remove_building = fairy_chimneys
+				}
+				if = {
+					limit = {
+						has_building_or_higher = cilician_gates
+					}
+					remove_building = cilician_gates
+				}
+				if = {
+					limit = {
+						has_building_or_higher = pleasure_dome
+					}
+					remove_building = pleasure_dome
+				}
+				if = {
+					limit = {
+						has_building_or_higher = burkhan_khaldun_01
+					}
+					remove_building = burkhan_khaldun_01
+				}
+			}
+		}
+	}
+}
